@@ -1,1 +1,3 @@
 default: --no-source --color --format pretty
+html: --no-source --color --format progress --format html --out=./reports/sanity.html
+jenkins: --no-source --color --format pretty --format html --out=./reports/sanity.html --format json --out=./reports/sanity.json
